@@ -1,0 +1,127 @@
+.choice {
+    margin-bottom: 88px;
+    
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+    
+    &__left-site{
+        max-width: 255px;
+        width: 100%;
+    }
+    
+    
+    
+    &__left-site-item{
+        .devider{
+            display: inline-block;
+            width: 100%;
+            height: 1px;
+            background: #83888F;
+            margin-bottom: 24px;
+            mix-blend-mode: normal;
+            opacity: 0.25;
+        }
+        
+    }
+    
+    &__left-side-link{
+        font-family: Fraunces, Arial, sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color:#333D4B;
+        text-decoration: none;
+        display: inline-block;
+        
+        &:hover{
+            color:#74849b;
+        }
+    }
+    
+    &__text{
+        font-family: Fraunces, Arial, sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color:#333D4B;
+        text-decoration: none;
+    }
+    
+    &__number{
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        margin-right: 28px;
+        color: #0E8784;
+    }
+    
+    &__number--active {
+        color: #9bf3f2;
+        opacity: 0.5;
+    }
+    
+    
+    
+    
+    &__right-site{
+        max-width: 730px;
+        width: 100%;
+    }
+    
+    &__right-site-heading{
+        font-family: 'Fraunces';
+        width: 632px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888F;
+        margin: 0;
+        margin-bottom: 56px;
+    }
+    
+    &__right-site-list{
+        width: 228px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 88px;
+        
+    }
+    
+    
+    &__right-site-item{
+        padding: 32px 28px 84px 28px;
+        margin-left: 28px;
+        background-color: #F4F1EB;
+        border-radius: 8px;
+        
+    }
+    
+    
+    
+    &__right-site-heading-inline{
+        font-family: 'Fraunces';
+        width: 99px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+        margin: 0%;
+        margin-bottom: 24px;
+        
+    }
+    
+    &__right-site-text{
+        font-family: 'Barlow';
+        width: 172px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+    
+}
+

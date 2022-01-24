@@ -1,0 +1,35 @@
+
+.crate-plan{
+     background-image: url(./../images/create-plan-bg.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     border: solid 10px white;
+     border-radius: 10px;
+     margin-bottom: 164px;
+
+     &__wrapper{
+         padding-left: 66px;
+     }
+
+    &__header{
+        width: 485px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        padding-top: 134px;
+    }
+    
+    &__text{
+        font-family: 'Barlow';
+        width: 445px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+        padding-bottom: 134px;
+    }
+    
+}
+

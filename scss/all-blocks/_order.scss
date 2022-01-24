@@ -1,0 +1,36 @@
+.order{
+   padding-left: 500px;
+   margin-bottom: 108px;
+   
+    &__container{
+        width: 730px;
+        background-color:  #2C343E;
+        padding: 31px 64px;
+       
+    }
+    
+    &__heading{
+        font-family: 'Barlow';
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+         
+    }
+    
+    &__text{
+        width: 602px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: #FFFFFF;
+          
+    }
+    
+    &__selected{
+        color:  #0E8784;;
+    }
+}

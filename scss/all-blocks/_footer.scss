@@ -1,0 +1,43 @@
+.footer {
+    margin-bottom: 135px;
+    &__container {
+        background-color: #282F38;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 47px 85px 49px 85px; 
+    }
+
+    &__logo{
+        margin-right: 103px;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    &__item {
+        list-style-type: none;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    &__link {
+        font-family: 'Barlow';
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px; 
+        color: #83888F;
+    }
+    
+    &__link:hover{
+        color: #fff;
+    }
+    
+    &__right-image{
+       margin-left: 24px;
+       margin-right: 24px;
+    }
+}

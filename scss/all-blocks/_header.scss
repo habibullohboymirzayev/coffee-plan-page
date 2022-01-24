@@ -1,0 +1,30 @@
+.header{
+      margin-top: 45px;
+      margin-bottom: 45px;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__list{
+        display: flex;
+        list-style-type: none;
+    }
+
+    &__item{
+        margin-left: 33px;
+        
+    }
+    
+    &__link{
+        text-decoration: none;
+        color: #83888F;
+      
+    }
+
+    &__link:hover{
+        color: #333D4B;
+    }
+}
